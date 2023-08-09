@@ -1,0 +1,59 @@
+! URxvt.geometry: 400x400
+URxvt.font: xft:Hack:size=13
+URxvt.letterSpace: -2
+URxvt.background: black
+URxvt.foreground: white
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+URxvt.scrollBar: 0
+URxvt.perl-ext: default,clipboard,url-select,resize-font
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: qutebrowser
+URxvt.url-select.underline: true
+URxvt.resize-font.step: 2
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+Sxiv.background: #333333
+Sxiv.foreground: #999999
+Sxiv.font: Hack-13
+
+Xft.dpi: 96
+
+! black
+*.color0:       black
+*.color8:       gray50
+
+! red
+*.color1:       red3
+*.color9:       red
+
+! green
+*.color2:       green3
+*.color10:      green
+
+! yellow
+*.color3:       yellow3
+*.color11:      yellow
+
+! blue
+*.color4:       blue2
+*.color12:      #5c5cff
+
+! magenta
+*.color5:       magenta3
+*.color13:      magenta
+
+! cyan
+*.color6:       cyan3
+*.color14:      cyan
+
+! white
+*.color7:       gray90
+*.color15:      white

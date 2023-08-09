@@ -1,0 +1,12 @@
+directory: ~/music
+library: ~/music/beets.db
+plugins: 
+  - fromfilename 
+  - fetchart 
+  - embedart
+  - edit 
+  - hook
+hook:
+  hooks:
+    - event: import
+      command: beet_after_import

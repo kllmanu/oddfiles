@@ -1,0 +1,4 @@
+-o ~/tmp/%(playlist)s/%(title)s.%(ext)s
+--output-na-placeholder ""
+--embed-thumbnail
+--ignore-errors
